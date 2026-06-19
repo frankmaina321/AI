@@ -1,0 +1,42 @@
+{
+  "name": "PERIS AI Assistant",
+  "short_name": "PERIS",
+  "description": "Personal Enhanced Responsive Intelligence System - Control your devices with AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06111b",
+  "theme_color": "#00e5ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "lang": "en-US",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Voice Control",
+      "short_name": "Voice",
+      "description": "Start voice control mode",
+      "url": "/voice-control",
+      "icons": [{ "src": "/voice-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Device Control",
+      "short_name": "Devices", 
+      "description": "Control smart devices",
+      "url": "/devices",
+      "icons": [{ "src": "/device-icon.png", "sizes": "96x96" }]
+    }
+  ]
+}
